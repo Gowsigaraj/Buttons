@@ -1,0 +1,153 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.main_container
+{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	width:100%;
+	}
+
+.button_container
+{
+	background-color:white;
+	border:2px solid grey;
+	width:80%;
+	height:100px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+	
+.btn_Primary{
+	background-color:blue;
+
+	padding:8px 16px;
+	border:none;
+    border-radius:5px; 
+	color:white;
+		text-decoration:none;
+}
+.btn_Primary:hover
+{
+	background-color:#0D47E6;
+}
+
+.btn_Secondary{
+	background-color:grey;
+
+	padding:8px 16px;
+	border:none;
+    border-radius:5px; 
+	color:white;
+		text-decoration:none;
+}
+.btn_Secondary:hover
+{
+	background-color:darkgrey;
+}
+
+.btn_Success{
+	background-color:green;
+
+	padding:8px 16px;
+	border:none;
+    border-radius:5px; 
+	color:white;
+		text-decoration:none;
+}
+.btn_Success:hover
+{
+	background-color:darkgreen;
+}
+
+.btn_Danger{
+	background-color:red;
+
+	padding:8px 16px;
+	border:none;
+    border-radius:5px; 
+	color:white;
+		text-decoration:none;
+}
+.btn_Danger:hover
+{
+	background-color:darkred;
+}
+
+.btn_Warning{
+	background-color:yellow;
+
+	padding:8px 16px;
+	border:none;
+    border-radius:5px; 
+	color:black;
+		text-decoration:none;
+}
+.btn_Warning:hover
+{
+	background-color: #ffcc00;
+}
+
+.btn_Info{
+	background-color:skyblue;
+
+	padding:8px 16px;
+	border:none;
+    border-radius:5px; 
+	color:black;
+		text-decoration:none;
+}
+.btn_Info:hover
+{
+	background-color: #33ccff;
+}
+
+.btn_Light{
+	background-color:White;
+
+	padding:8px 16px;
+	border:none;
+    border-radius:5px; 
+	color:black;
+	text-decoration:none;
+}
+.btn_Light:hover
+{
+	background-color:lightblue;
+}
+
+.btn_Dark{
+	background-color:black;
+
+	padding:8px 16px;
+	border:none;
+    border-radius:5px; 
+	color:white;
+	text-decoration:none;
+}
+.btn_Dark:hover
+{
+	background-color:   #595959;
+}
+
+
+
+
+.link{
+
+	padding:none;
+	border:none;
+	background-color:trasparent;
+	text-decoration:underline;
+	color:blue;
+
+}
+
+	
